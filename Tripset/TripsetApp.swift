@@ -8,6 +8,7 @@
 import SwiftUI
 
 @main
+
 struct TripsetApp: App {
     var body: some Scene {
         WindowGroup {

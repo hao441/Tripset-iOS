@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F73A1B32943FE52006AF1DB /* LexendMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F73A1B22943FE26006AF1DB /* LexendMedium.ttf */; };
+		3F73A1B42943FE55006AF1DB /* LondonTwo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F73A1B12943FE24006AF1DB /* LondonTwo.ttf */; };
 		3FD9A4372943E9FE0001D588 /* TripsetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD9A4362943E9FE0001D588 /* TripsetApp.swift */; };
 		3FD9A4392943E9FE0001D588 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD9A4382943E9FE0001D588 /* ContentView.swift */; };
 		3FD9A43B2943E9FF0001D588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FD9A43A2943E9FF0001D588 /* Assets.xcassets */; };
@@ -14,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F73A1AD2943FBD6006AF1DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3F73A1B12943FE24006AF1DB /* LondonTwo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LondonTwo.ttf; sourceTree = "<group>"; };
+		3F73A1B22943FE26006AF1DB /* LexendMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LexendMedium.ttf; sourceTree = "<group>"; };
 		3FD9A4332943E9FE0001D588 /* Tripset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tripset.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD9A4362943E9FE0001D588 /* TripsetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsetApp.swift; sourceTree = "<group>"; };
 		3FD9A4382943E9FE0001D588 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +37,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F73A1B02943FE1F006AF1DB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3F73A1B12943FE24006AF1DB /* LondonTwo.ttf */,
+				3F73A1B22943FE26006AF1DB /* LexendMedium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		3FD9A42A2943E9FE0001D588 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +65,10 @@
 		3FD9A4352943E9FE0001D588 /* Tripset */ = {
 			isa = PBXGroup;
 			children = (
+				3F73A1AD2943FBD6006AF1DB /* Info.plist */,
 				3FD9A4362943E9FE0001D588 /* TripsetApp.swift */,
 				3FD9A4382943E9FE0001D588 /* ContentView.swift */,
+				3F73A1B02943FE1F006AF1DB /* Fonts */,
 				3FD9A43A2943E9FF0001D588 /* Assets.xcassets */,
 				3FD9A43C2943E9FF0001D588 /* Preview Content */,
 			);
@@ -125,6 +141,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F73A1B42943FE55006AF1DB /* LondonTwo.ttf in Resources */,
+				3F73A1B32943FE52006AF1DB /* LexendMedium.ttf in Resources */,
 				3FD9A43E2943E9FF0001D588 /* Preview Assets.xcassets in Resources */,
 				3FD9A43B2943E9FF0001D588 /* Assets.xcassets in Resources */,
 			);
@@ -270,6 +288,7 @@
 				DEVELOPMENT_TEAM = 7G8XJ3WX7B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tripset/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +318,7 @@
 				DEVELOPMENT_TEAM = 7G8XJ3WX7B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tripset/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
