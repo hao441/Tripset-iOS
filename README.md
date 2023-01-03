@@ -1,6 +1,6 @@
 # Tripset-iOS #
 
-Tripset utilising firebase auth and firestore for authentication and storage.
+Tripset iOS utilises firebase auth and firestore for authentication and storage.
 
 ## Setup ##
 
